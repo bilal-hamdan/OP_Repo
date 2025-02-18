@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 300px;
+}
+
+.col{
+
+    border: 5px green;
+    background-color: lawngreen;
+}

@@ -1,0 +1,94 @@
+body{
+    background-image:url("background1.jpg");
+    background-repeat: no-repeat;
+    background-size:100% ;
+    
+}
+nav {
+  background-color: #333;
+  position: relative;
+  width: 100%;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+.navbar-item a {
+  display: block;
+  color: white;
+  padding: 14px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+navbar-item a:hover {
+  background-color: #575757;
+}
+
+/* Dropdown Menu Styling */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  top: 100%;
+  left: 0;
+  min-width: 160px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+}
+
+.dropdown-menu li a {
+  padding: 12px 20px;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #575757;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    background-color: rgb(204, 117, 117);
+    border: solid black 0.5px;
+    border-radius: 10px;
+}
+/* .card_pic{
+    /* width: 100%; */
+    /* border-radius: 10px; 
+} */
+ .card_pic img{
+    overflow: hidden;
+    /* width: 100%; */
+    border-radius: 10px 10px 0 0 ;
+}
+.card_body{
+    text-align: center;
+}
+.card_body h3{
+    font-style: italic;
+}
+.card_body p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+}
+
+  

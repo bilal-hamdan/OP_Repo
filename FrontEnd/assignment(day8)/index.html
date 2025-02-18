@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bilal's Portfolio</title>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">My Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+        <div>
+            <span class="menu-toggle">☰</span>
+            <span class="theme-toggle">🌙</span>
+        </div>
+    </nav>
+    <header>
+        <div class="container">
+            <img src="media/profile_pic.jpg" alt="">
+        </div>
+        <div class="container">
+            <h1>Bilal Hamdan</h1>
+            <p>Web Develope, Gamer, Tech Enthusiast</p>
+        </div>
+    </header>
+    <section class="about_me" id="about">
+        <h1>About Me</h1>
+        <div class="container">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam placeat eligendi nam eaque optio, aliquam <strong>alias illo </strong>similique! Dignissimos est nobis vel dolorem ex vitae tenetur non distinctio ipsum modi?
+        </div>
+    </section>
+    <section class="skills" id="sklls">
+        <h1>My Skills</h1>
+        <ul>
+            <li>
+                Web design
+            </li>
+            <li>
+                problem solving
+            </li>
+            <li>
+                teamwork
+            </li>
+        </ul>
+
+    </section>
+    <section class="projects" id="projects">
+        <h1>Projects</h1>
+        <table>
+            <tr>
+                <th colspan="3">
+                    Project
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    name
+                </td>
+                <td>
+                    discreption
+                </td>
+                <td>
+                    year
+                </td>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum dolor.</td>
+                <td>Lorem, ipsum dolor.</td>
+                <td>2023</td>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum dolor.</td>
+                <td>Lorem, ipsum dolor.</td>
+                <td>2020</td>
+            </tr>
+            <tr>
+                <td>Lorem, ipsum dolor.</td>
+                <td>Lorem, ipsum dolor.</td>
+                <td>2020</td>
+            </tr>
+        </table>
+    </section>
+    <footer id="contact">
+        <form class="contact-form" id="contactForm">
+            <h2>Contact Me</h2>
+            <input type="text" id="name" placeholder="Your Name">
+            <span class="error" id="nameError"></span>
+            
+            <input type="email" id="email" placeholder="Your Email">
+            <span class="error" id="emailError"></span>
+            
+            <textarea id="message" rows="4" placeholder="Your Message"></textarea>
+            <span class="error" id="messageError"></span>
+            
+            <button type="submit">Send Message</button>
+            <p id="successMessage" style="color: green; display: none;">Message sent successfully!</p>
+        </form>
+    </footer>
+        
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+cd : change directory 
+ls/ ls -l /ls -a : Displays information about files in the current directory.
+pwd : Displays the current working directory (path way for current directory).
+mkdir : make/creat a new directory
+rmdir : remove/delete direcotry
