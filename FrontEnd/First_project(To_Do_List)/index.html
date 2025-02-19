@@ -8,7 +8,23 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
+    <div class="popup">
+        <div class="input-card">
+            <input type="text" placeholder="Enter Title">
+            <textarea name="" id="" placeholder="Enter Discreption"></textarea>
+            <button id="add">
+                <span>
+                    <i class="fa-solid fa-circle-plus"></i>
+                </span>
+                Add
+            </button>
+            <button id="cancel" onclick="remove_input()">
+                Cancel
+            </button>
+        </div>
+    </div>
     <h1>Todo App</h1>
+
     <ul>
         <li id="new" onclick="display_input()">
             <span><i class="fa-solid fa-circle-plus"></i></span>
@@ -25,29 +41,25 @@
         </li>
     </ul>
 
-    <div class="popup">
-        <div class="input-card">
-            <input type="text" placeholder="Enter Title">
-            <textarea name="" id="" placeholder="Enter Discreption"></textarea>
-            <button id="add">
-                <span>
-                    <i class="fa-solid fa-circle-plus"></i>
-                </span>
-                Add
-            </button>
-            <button id="cancel" onclick="remove_input()">
-                Cancel
-            </button>
-        </div>
-    </div>
+    
     
 
     <div class="container">
         <div class="task">
             <input type="checkbox">
             <h5>marhaba</h5>
-            <i class="fa-solid fa-pen-to-square"></i>
-            <i class="fa-solid fa-trash"></i>
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+        <div class="task">
+            <input type="checkbox">
+            <h5>marhaba</h5>
+            <div>
+                <i class="fa-solid fa-pen-to-square"></i>
+                <i class="fa-solid fa-trash" onclick="deleteTask(this)"></i>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
